@@ -1,23 +1,104 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Node.js dependencies
+node_modules/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# dataset
+dataset/
 
-# testing
-/coverage
+# Build outputs
+build/
+dist/
 
-# production
-/build
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# misc
-.DS_Store
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# MacOS files
+.DS_Store
+
+# React Native
+.expo/
+
+# AWS Amplify files
+amplify/#current-cloud-backend
+amplify/.config/local-*
+
+# TensorFlow or Python cache files
+__pycache__/
+*.pyc
+
+# Model files (if you don't want to include them)
+public/model/
+*.h5
+*.pb
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# IDE directories
+.idea/
+.project
+.classpath
+
+# AWS credentials
+*.pem
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Temporary files
+*.tmp
+*.swp
+
+# OS generated files
+Thumbs.db
+
+# Git files
+.git/
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Parcel-bundler cache (if used)
+.cache
+
+# Styled Components artifacts
+*.module.css.d.ts
+
+# Optional REPL history
+.node_repl_history
+
+# S3 upload artifacts
+.s3/
+
+# Lambda function build artifacts
+lambda/*.zip
+
+# Local environment variables
+.env.local
+.env.*.local
