@@ -3,6 +3,7 @@ node_modules/
 
 # dataset
 dataset/
+tfjs_model/
 
 # Build outputs
 build/
